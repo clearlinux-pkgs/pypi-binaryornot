@@ -4,7 +4,7 @@
 #
 Name     : pypi-binaryornot
 Version  : 0.4.4
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz
 Summary  : Ultra-lightweight pure Python package to check if a file is binary or text.
@@ -15,6 +15,7 @@ Requires: pypi-binaryornot-python = %{version}-%{release}
 Requires: pypi-binaryornot-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(chardet)
+Provides: binaryornot
 
 %description
 BinaryOrNot
